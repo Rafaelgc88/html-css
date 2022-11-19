@@ -1,0 +1,92 @@
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    overflow: hidden;
+    width: 440px;
+    background-color: blue;
+    border-radius: 10px;
+    background-image: linear-gradient( to right, rgb(0, 204, 255), transparent, blue);
+    
+
+    }
+h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: blanchedalmond;
+        font-size: bolder;
+    } 
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+ } 
+
+#nome{
+    
+        text-align: center;
+        align-items: center
+ }
+ #cabecalho{
+    align-items: center;
+    justify-content: center;
+
+ }
+
+
+form input, form textarea{
+    outline: unset;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid cornflowerblue ;
+    border-radius: 5px ;
+    text-align: center;
+}
+
+form input:focus, form textarea:focus {
+    background-color: whitesmoke;
+}
+
+#btnForm {
+    background-color: cornflowerblue  ;
+    color: whitesmoke  ;
+    cursor: pointer;
+    border: 2px;
+    border-radius: 5px;
+    border-color: white;
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+#tabela {
+    border-radius: 5px ;
+    text-align: center;
+    background-color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border-collapse: collapse;
+    border-color: blue; 
+    border-width : 2px;
+    background-image: linear-gradient( to right, rgb(0, 204, 255), transparent, blue);
+       
+       
+}
+
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
